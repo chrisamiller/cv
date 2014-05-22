@@ -1,0 +1,148 @@
+bhtml, body{ 
+    margin:0; 
+    padding:0; 
+    text-align:center; 
+    line-height: 1.3em;
+    background-color:#333;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    color: #333;
+} 
+
+#container{ 
+    width:800px; 
+    text-align:left;  
+    margin-left:auto; 
+    margin-right:auto;  
+    background-color:#FFFFFF;
+} 
+
+
+
+
+.twoColContainer{
+    position:relative;
+    clear:both;
+    float:left;
+    width:100%;
+    overflow:hidden;
+    background-color:#FFFFFF;
+}
+
+.leftcol{ 
+    width:160px;
+    margin-left:10px;
+    margin-right:10px;
+    float:left;
+    font-size: small;
+}
+
+.rightcol{
+    float: right;
+    width:570px;
+    margin-left:10px;
+    margin-right:40px;
+    font-size: small;
+}
+
+
+
+#topbar{
+    margin-top:0px;
+    background-color:#586998;
+    position:relative; 
+    height:0px; 
+} 
+
+#header{
+    padding-top:0px;
+    margin-top:0px;
+    height:110px;    
+}
+
+#toppic{
+    float: left;
+    width:0px;
+    text-align:center;
+/*    background-color:orange; */
+}
+#headshot{
+    border:1px solid #dedede;
+    padding:10px;
+    visibility: hidden;
+    width:0px;
+}
+
+#title{
+    float: left;
+    width:420px;
+    padding-left:25px;
+}
+
+#contact{
+    float:right;
+    width:200px;
+    padding-top:50px;
+    margin-bottom:20px;
+    font-size:small;
+}
+
+
+h1 {
+    font-family: 'Cantarell', Arial, serif;
+    margin:0;
+    margin-top:0px;
+    padding-top:0px;
+    margin-bottom:10px;
+    font-size: 24px;
+}
+
+h2 {
+    margin:0;
+    margin-left:5px;
+    padding:0;
+    font-size: 12px;
+}
+
+
+h3{ 
+    font-family: 'Cantarell', Arial, serif;
+    margin-left:1em;
+    font-size: large;
+}
+
+p {
+    font-size:small;
+}
+
+/* #topinfo ul{ */
+/*     margin-top:0; */
+/* } */
+
+/* #topinfo li { */
+/*     font-size:small; */
+/*     margin-top:0; */
+/* } */
+
+
+li { 
+    margin-top:0.5em; 
+    font-weight:normal;
+} 
+ul{
+    list-style-type:square;
+}
+
+#sub{ 
+    line-height:1.1em;
+}
+
+.smaller{
+    font-size:x-small;
+}
+
+a{
+ color:#586998;
+}
+/* #footer p{ */
+/*     font-size:x-small */
+/* } */
