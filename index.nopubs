@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Chris Miller's Curriculum Vitae</title>
+
+  <link rel="stylesheet" href="cv.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+  <div id="container">
+    <div id="topbar">
+      &nbsp;
+    </div>
+
+
+    <div id="header">
+      <div id="toppic">
+    	<img src="square.png" alt="Chris Miller" id="headshot">
+      </div>
+      <div id="title">
+	<br />
+    	<h1>Chris Miller, PhD</h1>
+    	<h2>Analysis Manager - Cancer Genomics</h2>
+    	<h2>The Genome Institute at Washington University</h2>
+      </div>
+      <div id="contact">
+	<a href="mailto:chrisamiller@gmail.com">chrisamiller@gmail.com</a><br />
+	<a href="http://www.chrisamiller.com">chrisamiller.com</a><br />
+      </div>
+    </div>
+
+
+    <div class="twoColContainer">
+    <hr>
+    <div class="leftcol">
+	<h3>About Me</h3>
+      </div>
+      <div class="rightcol">
+	<p>I currently work in the Genome Institute at Washington University in St. Louis, 
+	  where I lead a group that develops and applies computational tools 
+	  to give us insight into the origins and progression of cancer.
+	  </p><p>
+	  Before moving to WashU, I completed a PhD in Computational Biology at Baylor 
+	  College of Medicine. My thesis was about using bioinformatic techniques and large-scale 
+	  data integration to help understand the aetiology of cancer.
+	  </p><p> 
+
+	</p>
+	<p>My core research interests include:</p>
+  	<ul>
+  	  <li>Cancer - studying the evolutionary pressures driving tumorigenesis</li>
+  	  <li>Integrative analysis - combining disparate sources of genomic data to place aberrations into a functional context</li>
+  	  <li>Structural changes in the human genome and their contributions to disease</li>
+  	  <li>Developing open-source software for integrating, mining, and visualizing genomic data</li>
+  	  <li>Utilizing online technologies to drive science communication and collaboration</li>
+	</ul>
+      </div>
+    </div>
+
+
+    <div class="twoColContainer">
+    <hr>
+      <div class="leftcol">
+	<h3>Education</h3>
+      </div>
+      <div class="rightcol">
+	<ul>
+	  <li>PhD, Structural and Computational Biology</br />
+	  and Molecular Biophysics program<br />
+	    Baylor College of Medicine<br />
+	    Mentor: Dr. Aleksandar Milosavljevic<br />
+	    Thesis: <a href="http://www.chrisamiller.com/science/Miller_Chapter1.pdf">Detection and Integrative Analysis of Genomic Aberrations in Cancer</a><br />
+	    (graduated February 2011)
+	  </li>
+	  <li>BS degrees in Biology and Computer Science<br />
+	    Truman State University<br />
+	    (graduated May 2005)</li>
+	</ul>
+      </div>
+    </div>
+
+    <div class="twoColContainer">
+    <hr>
+      <div class="leftcol">
+	<h3>Skills</h3>
+      </div>
+      <div class="rightcol">
+	<ul>
+	  <li>Designing genomic analysis pipelines using Perl, R, Bash, Ruby, and Linux</li>
+	  <li>Synthesizing data from a wide variety of genomic techniques and technologies, including:
+	    <ul>
+	      <li id="sub">massively-parallel sequencing:<br />
+		&nbsp;&nbsp;- paired-end sequencing for structural mapping<br />
+		&nbsp;&nbsp;- RNAseq for transcriptome interrogation<br />
+		&nbsp;&nbsp;- bisulfite sequencing for epigenomic assays<br />
+		&nbsp;&nbsp;- copy-number inference from read depth<br />
+		&nbsp;&nbsp;- SNP and indel detection<br />
+	      </li>
+	      <li id="sub">array comparative genomic hybridization (aCGH)</li>
+	      <li id="sub">SNP, expression, and methylation arrays</li>
+	      <li id="sub">functional and pathway databases</li>
+	    </ul>
+	  </li>
+	  <li>Design of machine-learning tools for extracting patterns from genomic data</li>
+	  <li>Utilizing high-performance linux clusters to expidite analyses</li>
+	  <li>Data visualization and web design</li>
+	  <li>Facilitating interdisciplinary collaborations</li>
+	</ul>
+      </div>
+    </div>
+
+
+    <div class="twoColContainer">
+    <hr>
+      <div class="leftcol">
+	<h3>Publications</h3>
+      </div>
+      <div class="rightcol">
+        <ul>
+          <!-- BIB GOES HERE -->
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="twoColContainer">
+    <hr>
+      <div class="leftcol">
+	<h3>Posters and Presentations</h3>
+      </div>
+      <div class="rightcol">
+	<ul>
+	  <li>Multi-dimensional clustering of mutations from heterogeneous tumors offers insight into clonal architecture, tumor evolution, and response to therapy<br />
+	    Presentation: The Cancer Genome Atlas Steering Committee Meeting (2013)
+	  </li>
+
+	  <li>Assessing Tumor Heterogeneity and Tracking Clonal Evolution Using Whole Genome or Exome Sequencing<br />
+	    Presentation: The Cancer Genome Atlas Scientific Symposium (2012) <a href="http://cancergenome.nih.gov/newsevents/multimedialibrary/videos/AssessingMiller2012">link</a></li>
+
+	  <li>Identification of driver mutations in non-coding functional regions of cancer genomes<br />
+	  Poster: Genome Informatics (2012)</li>
+
+	  <li>Discovering functional modules relevant for cancer progression by identifying patterns of recurrent and mutually exclusive mutations in tumor samples
+	    <br />Poster: CSHL Biology of Genomes (2010)</li>
+
+	  <li>Integrative analysis of multi-dimensional genomic data identifies key relationships between cancer pathways<br />
+	    Poster: SCBMB Retreat (2008)</li>
+
+	  <li>Pash: Efficient Genome-Scale Sequence Anchoring by Positional Hashing
+	    <br />Poster: Rice University Computational Biology Conference (2006)</li>
+
+	  <li> An Image Analytic Approach to Characterizing Vasculogenic Networks
+	    <br />Presentation: Truman State University Student Research Symposium (2005)</li>	  	</ul>
+      </div>
+    </div>
+
+
+    <div class="twoColContainer">
+    <hr>
+      <div class="leftcol">
+      <h3>Teaching</h3>
+      </div>
+      <div class="rightcol">
+      <ul>
+	<li>Computer Aided Discovery Methods (2007 and 2008)<br />
+	  Contributed to the development of the course and taught computational labs on:
+	  <ul>
+	    <li id="sub">Studies of genome variation</li>
+	    <li id="sub">Transcriptional regulatory pathways</li>
+	  </ul>
+	</li>
+	<li>Computational Mathematics for Biomedical Scientists (2008)
+	  <ul>
+	    <li id="sub">Teaching Assistant</li>
+	  </ul>
+	</li>
+	<li>Advanced Topics: Quantitative Biology (2005)
+	  <ul>
+	    <li id="sub">Teaching Assistant</li>
+	  </ul>
+	</li>
+
+      </ul>
+      </div>
+    </div>
+
+
+    <div class="twoColContainer">
+    <hr>
+      <div class="leftcol">
+	<h3>Past Research</h3>
+      </div>
+      <div class="rightcol">
+	   <ul>
+	     <li>Classification and analysis of Alu SINEs in Human and Chimpanzee Chromosomes 3 and 12<br />
+	       Mentor: Dr. Aleksandar Milosavljevic (BCM)<br />
+	       Rotation project - Fall 2005</li>
+
+	     <li>Development of an open-source image analysis toolset for describing the structure and dynamics of biological tissue.<br />
+	       Mentors: Dr Jason Miller (Truman State University) and Dr Robert Baer (Kirksville College of Osteopathic Medicine)<br />
+	       Summer 2004 - Spring 2005</li>
+
+	   </ul>
+    </div>
+
+
+    <div class="twoColContainer">
+    <hr>
+      <div class="leftcol">
+	<h3>Other</h3>
+      </div>
+      <div class="rightcol">
+	<ul>
+	  <li>I write about the intersection of science, technology, and culture at <a href="http://www.chrisamiller.com/science/">http://www.chrisamiller.com/science/</a></li>
+	  <li>BCM Graduate Student Council<br />
+	    &nbsp;&nbsp;&nbsp;- Vice-president 2008<br />
+	    &nbsp;&nbsp;&nbsp;- SCBMB representative 2007
+	  </li>
+	  <li>Member of Phi Sigma Pi National Honor Fraternity<br />&nbsp;&nbsp;&nbsp;- Chapter Service Key recipient (2004)</li>
+	  <li>Eagle Scout</li>
+	</ul>
+	</div>
+    </div>
+    </div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./index2_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7136507-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+
+</div></body></html>
