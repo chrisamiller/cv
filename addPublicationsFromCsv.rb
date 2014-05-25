@@ -53,7 +53,7 @@ def writePubs
       entry.gsub!("Bmc","BMC")
     end
 
-    entry = entry + article.doi
+    entry = entry + "." + article.doi
     entry = entry + '</span>' + "\n"
     entry = entry + '</li>' + "\n"
     pubEntries.push(entry)
