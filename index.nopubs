@@ -21,8 +21,9 @@
       <div id="title">
 	<br />
     	<h1>Chris Miller, PhD</h1>
-    	<h2>Analysis Manager - Cancer Genomics</h2>
-    	<h2>The Genome Institute at Washington University</h2>
+	<h2>Research Faculty - Division of Genomics and Bioinformatics</h2>
+	<h2>Cancer Analysis Group Leader - McDonnell Genome Institute</h2>
+	<h2>Washington University School of Medicine</h2>
       </div>
       <div id="contact">
 	<a href="mailto:chrisamiller@gmail.com">chrisamiller@gmail.com</a><br />
@@ -139,7 +140,9 @@
       </div>
       <div class="rightcol">
       <ul>
-	<li>Computer Aided Discovery Methods (2007 and 2008)<br />
+	  <li>Guest Lecture - Investigating Eukaryotic Genomes (2015)</li>
+	  <li>Guest Lecture - Molecular Basis of Heredity (2015)</li>
+	  <li>Computer Aided Discovery Methods (2007 and 2008)<br />
 	  Contributed to the development of the course and taught computational labs on:
 	  <ul>
 	    <li id="sub">Studies of genome variation</li>
