@@ -112,6 +112,8 @@ li {
 } 
 ul{
     list-style-type:square;
+    margin-left:0;
+    padding-left:1em;
 }
 
 #sub{ 
