@@ -4,7 +4,6 @@ require 'bibtex';
 def formatAuthors(authstring)
   authors = authstring.split(" and ")
   newauthors = Array.new
-  count=0;
   authors.each {|auth|
     if(auth == "others")
       newauthors.push("<em>et al.</em>")
@@ -29,7 +28,6 @@ def formatAuthors(authstring)
 
       newauthors.push(newstring)
     end
-    count=count+1;
   }
   return newauthors.join(", ")
 end
