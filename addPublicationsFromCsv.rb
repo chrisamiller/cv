@@ -4,6 +4,7 @@ require 'bibtex';
 def formatAuthors(authstring)
   authors = authstring.split(" and ")
   newauthors = Array.new
+  count=0;
   authors.each {|auth|
     if(auth == "others")
       newauthors.push("<em>et al.</em>")
@@ -16,12 +17,19 @@ def formatAuthors(authstring)
         newstring = newstring + names[i][0].upcase
       end
 
-      if newstring == "Miller CA" or newstring == "Miller C"
-        newstring = "<strong>Miller CA</strong>"
+      #handle co-first authorship
+      if(auth=~/\*$/)
+        newstring=newstring + "*"
       end
+      
+      if newstring =~ /Miller CA?(\*?)/
+        newstring = "<strong>Miller CA#{$1}</strong>"
+      end
+
 
       newauthors.push(newstring)
     end
+    count=count+1;
   }
   return newauthors.join(", ")
 end
@@ -45,7 +53,8 @@ def writePubs
     #puts article.inspect
     entry =  '<li class="pub">' + '<a href="' + article.url + '">' + article.title + '</a><br />' + "\n"
     entry = entry + '<span class="pubdetails">'
-    # puts article.authors
+
+        # puts article.authors
     entry = entry + formatAuthors(article.authors) + ". "
     unless (article.journal).nil?
       entry = entry + capitalizeEach(article.journal)
