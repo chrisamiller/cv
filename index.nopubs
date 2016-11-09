@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Chris Miller's Curriculum Vitae</title>
 
-  <link rel="stylesheet" href="cv.css" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="cv.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css' />
 </head>
 
 
@@ -16,7 +16,7 @@
 
     <div id="header">
       <div id="toppic">
-    	<img src="square.png" alt="Chris Miller" id="headshot">
+    	<img src="square.png" alt="Chris Miller" id="headshot" />
       </div>
       <div id="title">
 	<br />
@@ -27,27 +27,27 @@
       </div>
       <div id="contact">
 	<a href="mailto:chrisamiller@gmail.com">chrisamiller@gmail.com</a><br />
-	<a href="http://www.chrisamiller.com">chrisamiller.com</a><br />
+	<a href="http://www.chrismiller.science">chrisamiller.com</a><br />
       </div>
     </div>
 
 
     <div class="twoColContainer">
-    <hr>
+    <hr />
     <div class="leftcol">
 	<h3>About Me</h3>
       </div>
       <div class="rightcol">
-	<p>I work in the Genome Institute at Washington University in St. Louis, 
-	  where I lead a group that develops and applies computational tools 
-	  to give us insight into the origins and progression of cancer.
-	  </p><p>
-          My core research interests include:
-          <p>
+	  <p>I work in the Genome Institute at Washington University in St. Louis, 
+	     where I lead a group that develops and applies computational tools 
+	     to give us insight into the origins and progression of cancer.
+	  </p>
+	  <p>My core research interests include:
+      <p>
   	  <li>Cancer - studying the genomic alterations that result in tumorigenesis</li>
-          <li>The clonal architecture of tumors and how they evolve in response to therapy</li>
+      <li>The clonal architecture of tumors and how they evolve in response to therapy</li>
   	  <li>Integrative analysis to place genomic aberrations into a functional context</li>
-  	  <li>Structural changes in the human genome and their contributions to disease</li>
+  	  <li>Effective design and targeting of cancer immunotherapies</li>
   	  <li>Developing open-source software for integrating, mining, and visualizing genomic data</li>
   	  <li>Utilizing online technologies to drive science communication and collaboration</li>
 	</ul>
@@ -56,13 +56,13 @@
 
 
     <div class="twoColContainer">
-    <hr>
+    <hr />
       <div class="leftcol">
 	<h3>Education</h3>
       </div>
       <div class="rightcol">
 	<ul>
-	  <li>PhD, Structural and Computational Biology</br />
+	  <li>PhD, Structural and Computational Biology<br />
 	  and Molecular Biophysics program<br />
 	    Baylor College of Medicine<br />
 	    Mentor: Dr. Aleksandar Milosavljevic<br />
@@ -77,7 +77,7 @@
     </div>
 
     <div class="twoColContainer">
-    <hr>
+    <hr />
       <div class="leftcol">
 	<h3>Publications</h3>
       </div>
@@ -92,43 +92,37 @@
 
 
     <div class="twoColContainer">
-    <hr>
+    <hr />
       <div class="leftcol">
-	<h3>Posters and Presentations</h3>
+	<h3>Presentations</h3>
       </div>
       <div class="rightcol">
-	<ul>
+	<ul> 
+		<li>Characterizing genomic responses to cancer immunotherapy<br />
+            Genome Informatics (2016)	
+            </li>
+         <li>Genomic insights into tumor evolution and therapy response<br />
+            Festival of Genomics Boston (2016)	
+            </li>
+          <li>Assessing tumor heterogeneity and tracking clonal clearance in response to therapy<br />
+            Genome Informatics (2015)
+          </li>
+          <li>Ultra-deep whole-genome sequencing reveals clinically relevant low-frequency subclones in an acute myeloid leukemia<br />
+            The Cancer Genome Atlas Symposium (2014)
+          </li>
           <li>
             SciClone: Inferring clonal architecture and tracking the spatial and temporal patterns of tumor evolution and therapy resistance<br />
-            Presentation: Personal Genomes & Pharmacogenomics (2013)
+            Personal Genomes & Pharmacogenomics (2013)
           </li>
+		  <li>Multi-dimensional clustering of mutations from heterogeneous tumors offers insight into clonal architecture, tumor evolution, and response to therapy<br />
+	     The Cancer Genome Atlas Steering Committee Meeting (2013)
+		  </li>
 
-	  <li>Multi-dimensional clustering of mutations from heterogeneous tumors offers insight into clonal architecture, tumor evolution, and response to therapy<br />
-	    Presentation: The Cancer Genome Atlas Steering Committee Meeting (2013)
-	  </li>
-
-	  <li>Assessing Tumor Heterogeneity and Tracking Clonal Evolution Using Whole Genome or Exome Sequencing<br />
-	    Presentation: The Cancer Genome Atlas Scientific Symposium (2012) <a href="http://cancergenome.nih.gov/newsevents/multimedialibrary/videos/AssessingMiller2012">link</a>
+	  	  <li>Assessing Tumor Heterogeneity and Tracking Clonal Evolution Using Whole Genome or Exome Sequencing<br />
+	      The Cancer Genome Atlas Scientific Symposium (2012) <a href="http://cancergenome.nih.gov/newsevents/multimedialibrary/videos/AssessingMiller2012">link</a>
           </li>
-
-	  <li>Identification of driver mutations in non-coding functional regions of cancer genomes<br />
-	  Poster: Genome Informatics (2012)
-          </li>
-
-	  <li>Discovering functional modules relevant for cancer progression by identifying patterns of recurrent and mutually exclusive mutations in tumor samples
-	    <br />Poster: CSHL Biology of Genomes (2010)
-          </li>
-
-	  <li>Integrative analysis of multi-dimensional genomic data identifies key relationships between cancer pathways<br />
-	    Poster: SCBMB Retreat (2008)
-          </li>
-
-	  <li>Pash: Efficient Genome-Scale Sequence Anchoring by Positional Hashing
-	    <br />Poster: Rice University Computational Biology Conference (2006)
-          </li>
-
-	  <li> An Image Analytic Approach to Characterizing Vasculogenic Networks
-	    <br />Presentation: Truman State University Student Research Symposium (2005)
+		  <li> An Image Analytic Approach to Characterizing Vasculogenic Networks
+		    <br />Presentation: Truman State University Student Research Symposium (2005)
           </li>
         </ul>
       </div>
@@ -136,29 +130,30 @@
 
 
     <div class="twoColContainer">
-    <hr>
+    <hr />
       <div class="leftcol">
       <h3>Teaching</h3>
       </div>
       <div class="rightcol">
       <ul>
+      <li>Guest Lecture - Investigating Eukaryotic Genomes (2016)</li>
 	  <li>Guest Lecture - Investigating Eukaryotic Genomes (2015)</li>
 	  <li>Guest Lecture - Molecular Basis of Heredity (2015)</li>
 	  <li>Computer Aided Discovery Methods (2007 and 2008)<br />
 	  Contributed to the development of the course and taught computational labs on:
 	  <ul>
-	    <li id="sub">Studies of genome variation</li>
-	    <li id="sub">Transcriptional regulatory pathways</li>
+	    <li class="sub">Studies of genome variation</li>
+	    <li class="sub">Transcriptional regulatory pathways</li>
 	  </ul>
 	</li>
 	<li>Computational Mathematics for Biomedical Scientists (2008)
 	  <ul>
-	    <li id="sub">Teaching Assistant</li>
+	    <li class="sub">Teaching Assistant</li>
 	  </ul>
 	</li>
 	<li>Advanced Topics: Quantitative Biology (2005)
 	  <ul>
-	    <li id="sub">Teaching Assistant</li>
+	    <li class="sub">Teaching Assistant</li>
 	  </ul>
 	</li>
 
@@ -166,8 +161,21 @@
       </div>
     </div>
 
+
     <div class="twoColContainer">
-    <hr>
+    <hr />
+      <div class="leftcol">
+        <h3>Editorial</h3>
+      </div>
+      <div class="rightcol">
+        Ad-hoc reviewer for <em>Bioinformatics</em>, <em>Cancer Cell</em>, <em>Genome Biology</em>, <em>PLoS Computational Biology</em>, <em>Nucleic Acids Research</em>.<br />
+        Grant reviewer for Dutch Cancer Society (KWF Kankerbestrijding)
+      </div>
+    </div>
+    
+    
+    <div class="twoColContainer">
+    <hr />
       <div class="leftcol">
 	<h3>Other</h3>
       </div>
