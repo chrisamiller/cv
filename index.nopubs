@@ -135,12 +135,12 @@
       <h3>Teaching</h3>
       </div>
       <div class="rightcol">
-      <ul>
-      <li>Guest Lecture - Investigating Eukaryotic Genomes (2016)</li>
-	  <li>Guest Lecture - Investigating Eukaryotic Genomes (2015)</li>
+        <ul>
+          <li>Guest Lecture - Computational Statistical Genetics (2017)</li>
+          <li>Guest Lectures - Investigating Eukaryotic Genomes (2015-2017)</li>
 	  <li>Guest Lecture - Molecular Basis of Heredity (2015)</li>
 	  <li>Computer Aided Discovery Methods (2007 and 2008)<br />
-	  Contributed to the development of the course and taught computational labs on:
+	    Contributed to the development of the course and taught computational labs on:
 	  <ul>
 	    <li class="sub">Studies of genome variation</li>
 	    <li class="sub">Transcriptional regulatory pathways</li>
