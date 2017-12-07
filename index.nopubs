@@ -22,7 +22,7 @@
 	<br />
     	<h1>Chris Miller, PhD</h1>
 	<h2>Assistant Professor - Division of Oncology</h2>
-	<h2>Cancer Analysis Group Leader - McDonnell Genome Institute</h2>
+	<h2>McDonnell Genome Institute</h2>
 	<h2>Washington University School of Medicine</h2>
       </div>
       <div id="contact">
@@ -38,9 +38,8 @@
 	<h3>About Me</h3>
       </div>
       <div class="rightcol">
-	  <p>I work in the Genome Institute at Washington University in St. Louis, 
-	     where I lead a group that develops and applies computational tools 
-	     to give us insight into the origins and progression of cancer.
+	  <p>I work in the Division of Oncology and McDonnell Genome Institute at Washington University in St. Louis, 
+	     where I develop and apply computational tools to give us insight into the origins and progression of cancer.
 	  </p>
 	  <p>My core research interests include:
       <p>
@@ -168,7 +167,7 @@
         <h3>Editorial</h3>
       </div>
       <div class="rightcol">
-        Ad-hoc reviewer for <em>Bioinformatics</em>, <em>Cancer Cell</em>, <em>Genome Biology</em>, <em>PLoS Computational Biology</em>, <em>Nucleic Acids Research</em>.<br />
+        Ad-hoc reviewer for <em>Bioinformatics</em>, <em>Cancer Cell</em>, <em>Genome Biology</em>, <em>PLoS Computational Biology</em>, <em>Nucleic Acids Research</em>, <em>Nature Communications</em>.<br />
         Grant reviewer for Dutch Cancer Society (KWF Kankerbestrijding)
       </div>
     </div>
