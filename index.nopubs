@@ -96,13 +96,16 @@
 	<h3>Presentations</h3>
       </div>
       <div class="rightcol">
-	<ul> 
-		<li>Characterizing genomic responses to cancer immunotherapy<br />
+	<ul>
+          <li>Tumor Heterogeneity and Evolution<br />
+            Genomics in Medicine Seminar Series (2019)	
+          </li>
+	  <li>Characterizing genomic responses to cancer immunotherapy<br />
             Genome Informatics (2016)	
-            </li>
-         <li>Genomic insights into tumor evolution and therapy response<br />
+          </li>
+          <li>Genomic insights into tumor evolution and therapy response<br />
             Festival of Genomics Boston (2016)	
-            </li>
+          </li>
           <li>Assessing tumor heterogeneity and tracking clonal clearance in response to therapy<br />
             Genome Informatics (2015)
           </li>
@@ -113,15 +116,15 @@
             SciClone: Inferring clonal architecture and tracking the spatial and temporal patterns of tumor evolution and therapy resistance<br />
             Personal Genomes & Pharmacogenomics (2013)
           </li>
-		  <li>Multi-dimensional clustering of mutations from heterogeneous tumors offers insight into clonal architecture, tumor evolution, and response to therapy<br />
-	     The Cancer Genome Atlas Steering Committee Meeting (2013)
-		  </li>
-
-	  	  <li>Assessing Tumor Heterogeneity and Tracking Clonal Evolution Using Whole Genome or Exome Sequencing<br />
-	      The Cancer Genome Atlas Scientific Symposium (2012) <a href="http://cancergenome.nih.gov/newsevents/multimedialibrary/videos/AssessingMiller2012">link</a>
+	  <li>Multi-dimensional clustering of mutations from heterogeneous tumors offers insight into clonal architecture, tumor evolution, and response to therapy<br />
+	    The Cancer Genome Atlas Steering Committee Meeting (2013)
+	  </li>
+          
+	  <li>Assessing Tumor Heterogeneity and Tracking Clonal Evolution Using Whole Genome or Exome Sequencing<br />
+	    The Cancer Genome Atlas Scientific Symposium (2012) <a href="http://cancergenome.nih.gov/newsevents/multimedialibrary/videos/AssessingMiller2012">link</a>
           </li>
-		  <li> An Image Analytic Approach to Characterizing Vasculogenic Networks
-		    <br />Presentation: Truman State University Student Research Symposium (2005)
+	  <li> An Image Analytic Approach to Characterizing Vasculogenic Networks
+	    <br />Presentation: Truman State University Student Research Symposium (2005)
           </li>
         </ul>
       </div>
@@ -134,11 +137,11 @@
       <h3>Teaching</h3>
       </div>
       <div class="rightcol">
-        <li>Lecturer - High-Throughput Biology: From Sequence to Networks - CSHL/CBW Course</li>
         <ul>
-          <li>WUSTL Bioinformatics Workshops<br />
+          <li>Lecturer - High-Throughput Biology: From Sequence to Networks - CSHL/CBW Course (2019)</li>
+          <li>WUSTL Bioinformatics Workshops (2017-2019)<br />
 	    <ul>
-	      <li class="sub">Workshop Organizer</li>
+	      <li class="sub">Workshop Co-organizer</li>
 	      <li class="sub">Lectures on Bash, Docker/LSF/HPC, DNA Alignment, Variant Calling</li>
 	    </ul>
           </li>
@@ -147,7 +150,7 @@
           <li>Lecturer - Investigating Eukaryotic Genomes (2015-2017)</li>
 	  <li>Lecturer - Molecular Basis of Heredity (2015)</li>
 	  <li>Computer Aided Discovery Methods (2007 and 2008)<br />
-	    Helped develop of the course and taught computational labs on:
+	    co-developer of the course and taught computational labs on:
 	    <ul>
 	      <li class="sub">Studies of genome variation</li>
 	      <li class="sub">Transcriptional regulatory pathways</li>
@@ -177,9 +180,12 @@
       <div class="rightcol">
         Ad-hoc reviewer for <em>Bioinformatics</em>, <em>Cancer Cell</em>, <em>Genome Biology</em>, <em>PLoS Computational Biology</em>, <em>Nucleic Acids Research</em>, <em>Nature Communications, BMC Evolutionary Biology</em>.<br />
         Grant reviewer for Dutch Cancer Society (KWF Kankerbestrijding)
+        <br />    
+        <br />    
+        <br />   
       </div>
     </div>
-    
+
     
 
 <script type="text/javascript">
