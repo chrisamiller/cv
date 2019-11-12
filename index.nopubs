@@ -134,16 +134,24 @@
       <h3>Teaching</h3>
       </div>
       <div class="rightcol">
+        <li>Lecturer - High-Throughput Biology: From Sequence to Networks - CSHL/CBW Course</li>
         <ul>
-          <li>Guest Lecture - Computational Statistical Genetics (2017)</li>
-          <li>Guest Lectures - Investigating Eukaryotic Genomes (2015-2017)</li>
-	  <li>Guest Lecture - Molecular Basis of Heredity (2015)</li>
+          <li>WUSTL Bioinformatics Workshops<br />
+	    <ul>
+	      <li class="sub">Workshop Organizer</li>
+	      <li class="sub">Lectures on Bash, Docker/LSF/HPC, DNA Alignment, Variant Calling</li>
+	    </ul>
+          </li>
+          <li>Lecturer - Human Genetics (2019)</li>
+          <li>Lecturer - Computational Statistical Genetics (2017-19)</li>
+          <li>Lecturer - Investigating Eukaryotic Genomes (2015-2017)</li>
+	  <li>Lecturer - Molecular Basis of Heredity (2015)</li>
 	  <li>Computer Aided Discovery Methods (2007 and 2008)<br />
-	    Contributed to the development of the course and taught computational labs on:
-	  <ul>
-	    <li class="sub">Studies of genome variation</li>
-	    <li class="sub">Transcriptional regulatory pathways</li>
-	  </ul>
+	    Helped develop of the course and taught computational labs on:
+	    <ul>
+	      <li class="sub">Studies of genome variation</li>
+	      <li class="sub">Transcriptional regulatory pathways</li>
+	    </ul>
 	</li>
 	<li>Computational Mathematics for Biomedical Scientists (2008)
 	  <ul>
@@ -167,32 +175,12 @@
         <h3>Editorial</h3>
       </div>
       <div class="rightcol">
-        Ad-hoc reviewer for <em>Bioinformatics</em>, <em>Cancer Cell</em>, <em>Genome Biology</em>, <em>PLoS Computational Biology</em>, <em>Nucleic Acids Research</em>, <em>Nature Communications</em>.<br />
+        Ad-hoc reviewer for <em>Bioinformatics</em>, <em>Cancer Cell</em>, <em>Genome Biology</em>, <em>PLoS Computational Biology</em>, <em>Nucleic Acids Research</em>, <em>Nature Communications, BMC Evolutionary Biology</em>.<br />
         Grant reviewer for Dutch Cancer Society (KWF Kankerbestrijding)
       </div>
     </div>
     
     
-    <div class="twoColContainer">
-    <hr />
-      <div class="leftcol">
-	<h3>Other</h3>
-      </div>
-      <div class="rightcol">
-	<ul>
-	  <li>I write about the intersection of science, technology, and culture at <a href="http://www.chrisamiller.com/science/">http://www.chrisamiller.com/science/</a></li>
-	  <li>BCM Graduate Student Council<br />
-	    &nbsp;&nbsp;&nbsp;- Vice-president 2008<br />
-	    &nbsp;&nbsp;&nbsp;- SCBMB representative 2007
-	  </li>
-	  <li>Member of Phi Sigma Pi National Honor Fraternity<br />&nbsp;&nbsp;&nbsp;- Chapter Service Key recipient (2004)</li>
-	  <li>Eagle Scout</li>
-	</ul>
-	</div>
-    </div>
-    </div>
-
-
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
