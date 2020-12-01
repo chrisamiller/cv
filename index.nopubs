@@ -44,7 +44,7 @@
 	  <p>My core research interests include:
       <p>
   	  <li>Cancer - studying the genomic alterations that result in tumorigenesis</li>
-      <li>The clonal architecture of tumors and how they evolve in response to therapy</li>
+          <li>The clonal architecture of tumors and how they evolve in response to therapy</li>
   	  <li>Integrative analysis to place genomic aberrations into a functional context</li>
   	  <li>Effective design and targeting of cancer immunotherapies</li>
   	  <li>Developing open-source software for integrating, mining, and visualizing genomic data</li>
@@ -139,14 +139,14 @@
       <div class="rightcol">
         <ul>
           <li>Lecturer - High-Throughput Biology: From Sequence to Networks - CSHL/CBW Course (2019)</li>
-          <li>WUSTL Bioinformatics Workshops (2017-2019)<br />
+          <li>WUSTL Bioinformatics Workshops (2017-present)<br />
 	    <ul>
 	      <li class="sub">Workshop Co-organizer</li>
-	      <li class="sub">Lectures on Bash, Docker/LSF/HPC, DNA Alignment, Variant Calling</li>
+	      <li class="sub">Lectures on Bash, Docker/LSF/HPC, DNA Alignment, Variant Calling, Tumor Heterogeneity, etc</li>
 	    </ul>
           </li>
 	  <li>Lecturer - Research Explorations in Genomics (2020)</li>
-          <li>Lecturer - Human Genetics (2019)</li>
+          <li>Lecturer - Human Genetics (2019-20)</li>
           <li>Lecturer - Computational Statistical Genetics (2017-19)</li>
           <li>Lecturer - Investigating Eukaryotic Genomes (2015-2017)</li>
 	  <li>Lecturer - Molecular Basis of Heredity (2015)</li>
@@ -180,8 +180,8 @@
       </div>
       <div class="rightcol">
         Ad-hoc reviewer for <em>Bioinformatics</em>, <em>Cancer Cell</em>, <em>Genome Biology</em>, <em>PLoS Computational Biology</em>, <em>Nucleic Acids Research</em>, <em>Nature Communications, BMC Evolutionary Biology</em>.<br />
-        Grant reviewer for Dutch Cancer Society (KWF Kankerbestrijding)
-        <br />    
+        Grant reviewer for Dutch Cancer Society (KWF Kankerbestrijding)<br />    
+        Grant reviewer for Siteman Cancer Center Investment Program<br />
         <br />    
         <br />   
       </div>
