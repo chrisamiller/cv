@@ -1,0 +1,45 @@
+<!-- title: Research | active: research | desc: Research on cancer genomics, tumor evolution, clonal architecture, and computational methods. -->
+<h2>Research</h2>
+<p>I build and apply computational methods to understand how cancers arise, evolve, and respond to treatment. Much of this work is grounded in acute myeloid leukemia (AML) but extends across many tumor types and into immunotherapy design.</p>
+<!-- TODO: Chris — the four cards below use real titles from your interests; the descriptions are lorem ipsum. Edit them, and drop real thumbnail images into assets/img/research/. -->
+
+<div class="research-grid">
+
+<div class="research-card" id="cancer-genomics">
+<img src="assets/img/research/placeholder.svg" class="research-thumb" alt="">
+<div class="research-body">
+<h4 class="research-title">Genomic origins of tumorigenesis</h4>
+<p class="research-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. We use whole-genome and exome sequencing to catalog the somatic mutations, structural variants, and epigenetic changes that initiate and sustain malignant transformation, with an emphasis on myeloid disease.</p>
+</div>
+</div>
+
+<div class="research-card" id="aml">
+<img src="assets/img/research/placeholder.svg" class="research-thumb" alt="">
+<div class="research-body">
+<h4 class="research-title">Acute Myeloid Leukemia</h4>
+<p class="research-desc">Sed do eiusmod tempor incididunt ut labore. By tracking subclonal populations before, during, and after treatment, we study how tumors evolve under therapeutic pressure and which clones drive relapse. Methods from the lab (SciClone, ClonEvol, fishplot) support this work.</p>
+</div>
+</div>
+
+<div class="research-card" id="clonal-architecture">
+<img src="assets/img/research/placeholder.svg" class="research-thumb" alt="">
+<div class="research-body">
+<h4 class="research-title">Integrative &amp; functional genomics</h4>
+<p class="research-desc">Ut enim ad minim veniam, quis nostrud exercitation. We combine DNA, RNA, single-cell, and epigenomic data to move from lists of variants to mechanistic understanding &mdash; identifying which alterations matter and how they reshape cellular programs.</p>
+</div>
+</div>
+
+<div class="research-card" id="immunotherapy">
+<img src="assets/img/research/placeholder.svg" class="research-thumb" alt="">
+<div class="research-body">
+<h4 class="research-title">Designing cancer immunotherapies</h4>
+<p class="research-desc">Duis aute irure dolor in reprehenderit in voluptate. We contribute computational tooling for neoantigen identification and personalized vaccine design (pVACtools, pVACview) and study how the genomic and immune landscapes of tumors shape response.</p>
+</div>
+</div>
+
+</div>
+
+<div class="section-card" id="communication">
+<h3>Software &amp; science communication</h3>
+<p>A through-line of my work is building open, well-documented tools and teaching others to use them &mdash; see the <a href="software.html">Software</a> and <a href="teaching.html">Teaching</a> pages. <!-- TODO: Chris — expand or trim. --></p>
+</div>

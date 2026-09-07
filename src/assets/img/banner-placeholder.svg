@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="400" fill="#262520"/>
+  <g fill="none" stroke="#74b9d6" stroke-width="2" opacity="0.5">
+    <circle cx="240" cy="200" r="70"/><circle cx="420" cy="140" r="40"/>
+    <circle cx="560" cy="260" r="55"/><circle cx="760" cy="170" r="35"/>
+    <circle cx="900" cy="240" r="60"/><circle cx="1040" cy="150" r="30"/>
+    <path d="M240 200 L420 140 M420 140 L560 260 M560 260 L760 170 M760 170 L900 240 M900 240 L1040 150"/>
+  </g>
+  <text x="600" y="210" font-family="Georgia,serif" font-size="26" fill="#7d796f" text-anchor="middle">placeholder banner &#8212; replace me</text>
+</svg>

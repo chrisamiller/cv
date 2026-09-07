@@ -1,0 +1,573 @@
+{
+ "source": "OpenAlex",
+ "generated": "2026-08-28",
+ "as_of": "August 2026",
+ "totals": {
+  "citations": 60527,
+  "h_index": 65,
+  "i10_index": 113,
+  "counted": 140
+ },
+ "by_id": {
+  "10.1001/jama.2015.9643": {
+   "cited_by_count": 347,
+   "openalex_id": "W1920829940"
+  },
+  "10.1007/s00262-023-03463-x": {
+   "cited_by_count": 2,
+   "openalex_id": "W4376598470"
+  },
+  "10.1016/j.cancergen.2011.07.009": {
+   "cited_by_count": 19,
+   "openalex_id": "W2127800340"
+  },
+  "10.1016/j.cancergen.2022.04.002": {
+   "cited_by_count": 11,
+   "openalex_id": "W4226100350"
+  },
+  "10.1016/j.ccr.2014.01.031": {
+   "cited_by_count": 408,
+   "openalex_id": "W2087734794"
+  },
+  "10.1016/j.ccr.2014.02.010": {
+   "cited_by_count": 465,
+   "openalex_id": "W2025193307"
+  },
+  "10.1016/j.cell.2012.06.023": {
+   "cited_by_count": 1579,
+   "openalex_id": "W2012753533"
+  },
+  "10.1016/j.cell.2017.10.014": {
+   "cited_by_count": 1096,
+   "openalex_id": "W2765468373"
+  },
+  "10.1016/j.cell.2020.09.015": {
+   "cited_by_count": 551,
+   "openalex_id": "W3091991776"
+  },
+  "10.1016/j.celrep.2013.08.022": {
+   "cited_by_count": 630,
+   "openalex_id": "W2124358769"
+  },
+  "10.1016/j.celrep.2016.08.076": {
+   "cited_by_count": 28,
+   "openalex_id": "W2525342580"
+  },
+  "10.1016/j.cels.2015.08.015": {
+   "cited_by_count": 209,
+   "openalex_id": "W2104750097"
+  },
+  "10.1016/j.exphem.2016.04.011": {
+   "cited_by_count": 58,
+   "openalex_id": "W2350389426"
+  },
+  "10.1016/j.exphem.2017.07.008": {
+   "cited_by_count": 11,
+   "openalex_id": "W2740752367"
+  },
+  "10.1016/j.exphem.2018.11.008": {
+   "cited_by_count": 20,
+   "openalex_id": "W2904293039"
+  },
+  "10.1016/j.exphem.2022.04.002": {
+   "cited_by_count": 20,
+   "openalex_id": "W4223949657"
+  },
+  "10.1016/j.isci.2022.104004": {
+   "cited_by_count": 3,
+   "openalex_id": "W4214855976"
+  },
+  "10.1016/j.jid.2022.08.037": {
+   "cited_by_count": 9,
+   "openalex_id": "W4293722112"
+  },
+  "10.1016/j.jmoldx.2021.10.013": {
+   "cited_by_count": 43,
+   "openalex_id": "W4220850399"
+  },
+  "10.1016/j.jmoldx.2025.09.001": {
+   "cited_by_count": 1,
+   "openalex_id": "W4414559368"
+  },
+  "10.1016/j.stem.2012.03.002": {
+   "cited_by_count": 197,
+   "openalex_id": "W2052159842"
+  },
+  "10.1016/j.ymthe.2020.12.031": {
+   "cited_by_count": 51,
+   "openalex_id": "W3114757933"
+  },
+  "10.1038/bcj.2016.18": {
+   "cited_by_count": 18,
+   "openalex_id": "W2332771775"
+  },
+  "10.1038/leu.2013.58": {
+   "cited_by_count": 281,
+   "openalex_id": "W2041596445"
+  },
+  "10.1038/leu.2014.289": {
+   "cited_by_count": 47,
+   "openalex_id": "W1981672644"
+  },
+  "10.1038/leu.2015.6": {
+   "cited_by_count": 130,
+   "openalex_id": "W2019542367"
+  },
+  "10.1038/leu.2016.247": {
+   "cited_by_count": 6,
+   "openalex_id": "W2510725907"
+  },
+  "10.1038/leu.2016.282": {
+   "cited_by_count": 106,
+   "openalex_id": "W2529870244"
+  },
+  "10.1038/nature07385": {
+   "cited_by_count": 7860,
+   "openalex_id": "W2025183726"
+  },
+  "10.1038/nature10738": {
+   "cited_by_count": 2028,
+   "openalex_id": "W2093144236"
+  },
+  "10.1038/nature11143": {
+   "cited_by_count": 1036,
+   "openalex_id": "W2150757282"
+  },
+  "10.1038/nature12634": {
+   "cited_by_count": 4558,
+   "openalex_id": "W2022495797"
+  },
+  "10.1038/nature13385": {
+   "cited_by_count": 5923,
+   "openalex_id": "W2180481128"
+  },
+  "10.1038/nature13968": {
+   "cited_by_count": 894,
+   "openalex_id": "W2075877031"
+  },
+  "10.1038/ncomms10086": {
+   "cited_by_count": 316,
+   "openalex_id": "W2233494104"
+  },
+  "10.1038/ncomms12498": {
+   "cited_by_count": 72,
+   "openalex_id": "W2493364589"
+  },
+  "10.1038/ncomms13294": {
+   "cited_by_count": 44,
+   "openalex_id": "W2550144082"
+  },
+  "10.1038/ncomms4156": {
+   "cited_by_count": 305,
+   "openalex_id": "W2126633009"
+  },
+  "10.1038/ng.2764": {
+   "cited_by_count": 9759,
+   "openalex_id": "W2158485828"
+  },
+  "10.1038/nm.3733": {
+   "cited_by_count": 1911,
+   "openalex_id": "W1992826811"
+  },
+  "10.1038/nmeth.2689": {
+   "cited_by_count": 574,
+   "openalex_id": "W2141432783"
+  },
+  "10.1038/s41375-018-0065-5": {
+   "cited_by_count": 397,
+   "openalex_id": "W2791923357"
+  },
+  "10.1038/s41375-018-0193-y": {
+   "cited_by_count": 32,
+   "openalex_id": "W2810566132"
+  },
+  "10.1038/s41375-021-01476-y": {
+   "cited_by_count": 33,
+   "openalex_id": "W4200058484"
+  },
+  "10.1038/s41375-024-02426-0": {
+   "cited_by_count": 0,
+   "openalex_id": "W4403143491"
+  },
+  "10.1038/s41416-018-0089-7": {
+   "cited_by_count": 25,
+   "openalex_id": "W2807017185"
+  },
+  "10.1038/s41467-018-02858-0": {
+   "cited_by_count": 199,
+   "openalex_id": "W2790610652"
+  },
+  "10.1038/s41467-018-05914-x": {
+   "cited_by_count": 143,
+   "openalex_id": "W2781715103"
+  },
+  "10.1038/s41467-019-11591-1": {
+   "cited_by_count": 239,
+   "openalex_id": "W2968098426"
+  },
+  "10.1038/s41467-021-24800-7": {
+   "cited_by_count": 49,
+   "openalex_id": "W3184919899"
+  },
+  "10.1038/s41598-020-71300-7": {
+   "cited_by_count": 11,
+   "openalex_id": "W3082754345"
+  },
+  "10.1038/s42003-023-05026-3": {
+   "cited_by_count": 32,
+   "openalex_id": "W4382937383"
+  },
+  "10.1038/s43018-026-01163-w": {
+   "cited_by_count": 4,
+   "openalex_id": "W7160926096"
+  },
+  "10.1056/evidoa2500352": {
+   "cited_by_count": 1,
+   "openalex_id": "W7204159611"
+  },
+  "10.1056/nejmc1308782": {
+   "cited_by_count": 71,
+   "openalex_id": "W110534977"
+  },
+  "10.1056/nejmoa1301689": {
+   "cited_by_count": 5207,
+   "openalex_id": "W1255676896"
+  },
+  "10.1056/nejmoa1605949": {
+   "cited_by_count": 796,
+   "openalex_id": "W2549790759"
+  },
+  "10.1056/nejmoa1804714": {
+   "cited_by_count": 124,
+   "openalex_id": "W2891092031"
+  },
+  "10.1056/nejmoa1808777": {
+   "cited_by_count": 477,
+   "openalex_id": "W2898648224"
+  },
+  "10.1056/nejmoa2024534": {
+   "cited_by_count": 301,
+   "openalex_id": "W3134703711"
+  },
+  "10.1073/pnas.1918611117": {
+   "cited_by_count": 36,
+   "openalex_id": "W3004078246"
+  },
+  "10.1073/pnas.2022760118": {
+   "cited_by_count": 8,
+   "openalex_id": "W3155446401"
+  },
+  "10.1073/pnas.2116427118": {
+   "cited_by_count": 49,
+   "openalex_id": "W3217053338"
+  },
+  "10.1073/pnas.2317690121": {
+   "cited_by_count": 7,
+   "openalex_id": "W4394993623"
+  },
+  "10.1080/2162402x.2018.1561106": {
+   "cited_by_count": 75,
+   "openalex_id": "W2913786357"
+  },
+  "10.1093/annonc/mdx517": {
+   "cited_by_count": 188,
+   "openalex_id": "W2756005140"
+  },
+  "10.1093/neuonc/noaa050": {
+   "cited_by_count": 81,
+   "openalex_id": "W3010265110"
+  },
+  "10.1093/neuonc/nox232": {
+   "cited_by_count": 58,
+   "openalex_id": "W2775286316"
+  },
+  "10.1101/gr.080259.108": {
+   "cited_by_count": 132,
+   "openalex_id": "W2129843621"
+  },
+  "10.1101/gr.129684.111": {
+   "cited_by_count": 5376,
+   "openalex_id": "W2155943701"
+  },
+  "10.1101/gr.142604.112": {
+   "cited_by_count": 127,
+   "openalex_id": "W2125241149"
+  },
+  "10.1101/mcs.a000687": {
+   "cited_by_count": 20,
+   "openalex_id": "W2231101919"
+  },
+  "10.1101/mcs.a002444": {
+   "cited_by_count": 17,
+   "openalex_id": "W2791588234"
+  },
+  "10.1101/mcs.a006267": {
+   "cited_by_count": 5,
+   "openalex_id": "W4376133564"
+  },
+  "10.1101/sqb.2016.81.030726": {
+   "cited_by_count": 24,
+   "openalex_id": "W2604801077"
+  },
+  "10.1111/bjh.15681": {
+   "cited_by_count": 2,
+   "openalex_id": "W2901486139"
+  },
+  "10.1111/bpa.12364": {
+   "cited_by_count": 23,
+   "openalex_id": "W2272319161"
+  },
+  "10.1126/sciadv.aay9691": {
+   "cited_by_count": 81,
+   "openalex_id": "W3034270269"
+  },
+  "10.1126/sciadv.adk8598": {
+   "cited_by_count": 8,
+   "openalex_id": "W4391418283"
+  },
+  "10.1126/sciimmunol.abg2200": {
+   "cited_by_count": 27,
+   "openalex_id": "W4362704134"
+  },
+  "10.1158/1078-0432.ccr-14-3049": {
+   "cited_by_count": 56,
+   "openalex_id": "W1991297649"
+  },
+  "10.1158/2159-8290.cd-16-0575": {
+   "cited_by_count": 299,
+   "openalex_id": "W2524525752"
+  },
+  "10.1158/2326-6066.cir-16-0156": {
+   "cited_by_count": 106,
+   "openalex_id": "W2541023789"
+  },
+  "10.1158/2326-6066.cir-16-0264": {
+   "cited_by_count": 92,
+   "openalex_id": "W2625948243"
+  },
+  "10.1158/2326-6066.cir-19-0401": {
+   "cited_by_count": 302,
+   "openalex_id": "W2998313390"
+  },
+  "10.1158/2326-6066.cir-25-0666": {
+   "cited_by_count": 1,
+   "openalex_id": "W7128165245"
+  },
+  "10.1158/2643-3230.bcd-21-0050": {
+   "cited_by_count": 32,
+   "openalex_id": "W3194817472"
+  },
+  "10.1158/2643-3230.bcd-21-0155": {
+   "cited_by_count": 23,
+   "openalex_id": "W4283023056"
+  },
+  "10.1158/2643-3230.bcd-22-0036": {
+   "cited_by_count": 0,
+   "openalex_id": "W4226328876"
+  },
+  "10.1158/2767-9764.crc-23-0140": {
+   "cited_by_count": 15,
+   "openalex_id": "W4388141229"
+  },
+  "10.1172/jci.insight.138734": {
+   "cited_by_count": 23,
+   "openalex_id": "W3178365252"
+  },
+  "10.1172/jci.insight.146351": {
+   "cited_by_count": 47,
+   "openalex_id": "W3131009079"
+  },
+  "10.1172/jci.insight.98962": {
+   "cited_by_count": 61,
+   "openalex_id": "W2791107549"
+  },
+  "10.1172/jci141401": {
+   "cited_by_count": 20,
+   "openalex_id": "W3199683944"
+  },
+  "10.1172/jci176311": {
+   "cited_by_count": 12,
+   "openalex_id": "W4389455253"
+  },
+  "10.1172/jci195929": {
+   "cited_by_count": 2,
+   "openalex_id": "W4413044298"
+  },
+  "10.1172/jci93041": {
+   "cited_by_count": 89,
+   "openalex_id": "W2751498819"
+  },
+  "10.1182/blood-2014-06-582551": {
+   "cited_by_count": 24,
+   "openalex_id": "W2058917707"
+  },
+  "10.1182/blood-2014-08-594564": {
+   "cited_by_count": 96,
+   "openalex_id": "W2015603297"
+  },
+  "10.1182/blood-2015-04-641100": {
+   "cited_by_count": 241,
+   "openalex_id": "W2396290019"
+  },
+  "10.1182/blood-2015-10-677021": {
+   "cited_by_count": 107,
+   "openalex_id": "W2341794002"
+  },
+  "10.1182/blood-2016-07-729954": {
+   "cited_by_count": 187,
+   "openalex_id": "W2551251192"
+  },
+  "10.1182/blood-2016-10-745273": {
+   "cited_by_count": 59,
+   "openalex_id": "W2572952103"
+  },
+  "10.1182/blood-2017-08-801985": {
+   "cited_by_count": 123,
+   "openalex_id": "W2766437865"
+  },
+  "10.1182/blood.2021011758": {
+   "cited_by_count": 28,
+   "openalex_id": "W3167030699"
+  },
+  "10.1182/blood.2021014052": {
+   "cited_by_count": 19,
+   "openalex_id": "W3214640917"
+  },
+  "10.1182/blood.2022016033": {
+   "cited_by_count": 130,
+   "openalex_id": "W4288052446"
+  },
+  "10.1182/bloodadvances.2017014183": {
+   "cited_by_count": 33,
+   "openalex_id": "W2808439336"
+  },
+  "10.1182/bloodadvances.2019000664": {
+   "cited_by_count": 14,
+   "openalex_id": "W3029103692"
+  },
+  "10.1182/bloodadvances.2022007705": {
+   "cited_by_count": 5,
+   "openalex_id": "W4286008648"
+  },
+  "10.1182/bloodadvances.2023010156": {
+   "cited_by_count": 32,
+   "openalex_id": "W4381434136"
+  },
+  "10.1182/bloodadvances.2025018369": {
+   "cited_by_count": 2,
+   "openalex_id": "W7126098404"
+  },
+  "10.1186/1471-2105-11-572": {
+   "cited_by_count": 54,
+   "openalex_id": "W2064730301"
+  },
+  "10.1186/1755-8794-4-34": {
+   "cited_by_count": 141,
+   "openalex_id": "W2017283085"
+  },
+  "10.1186/s12864-016-3195-z": {
+   "cited_by_count": 185,
+   "openalex_id": "W2551783467"
+  },
+  "10.1186/s13073-021-00872-4": {
+   "cited_by_count": 68,
+   "openalex_id": "W3157007328"
+  },
+  "10.1186/s13073-024-01384-7": {
+   "cited_by_count": 11,
+   "openalex_id": "W4399598153"
+  },
+  "10.1186/s13073-024-01388-3": {
+   "cited_by_count": 83,
+   "openalex_id": "W4404312450"
+  },
+  "10.1200/jco.22.00857": {
+   "cited_by_count": 87,
+   "openalex_id": "W4311287891"
+  },
+  "10.1371/journal.pcbi.1002216": {
+   "cited_by_count": 103,
+   "openalex_id": "W1969739015"
+  },
+  "10.1371/journal.pcbi.1003665": {
+   "cited_by_count": 500,
+   "openalex_id": "W1979115864"
+  },
+  "10.1371/journal.pcbi.1004274": {
+   "cited_by_count": 90,
+   "openalex_id": "W1547888106"
+  },
+  "10.1371/journal.pgen.1004462": {
+   "cited_by_count": 138,
+   "openalex_id": "W1967563925"
+  },
+  "10.1371/journal.pmed.1002174": {
+   "cited_by_count": 108,
+   "openalex_id": "W2560102897"
+  },
+  "10.1371/journal.pone.0016327": {
+   "cited_by_count": 237,
+   "openalex_id": "W2092203068"
+  },
+  "10.1371/journal.pone.0111153": {
+   "cited_by_count": 89,
+   "openalex_id": "W2169459254"
+  },
+  "10.1371/journal.pone.0120585": {
+   "cited_by_count": 17,
+   "openalex_id": "W2090134497"
+  },
+  "10.1371/journal.pone.0255706": {
+   "cited_by_count": 9,
+   "openalex_id": "W3213237525"
+  },
+  "10.18632/oncotarget.23664": {
+   "cited_by_count": 19,
+   "openalex_id": "W2777385100"
+  },
+  "10.21105/joss.03722": {
+   "cited_by_count": 145,
+   "openalex_id": "W3186098271"
+  },
+  "10.3324/haematol.2017.184168": {
+   "cited_by_count": 2,
+   "openalex_id": "W2791960406"
+  },
+  "10.3324/haematol.2019.217794": {
+   "cited_by_count": 18,
+   "openalex_id": "W2927465714"
+  },
+  "10.3324/haematol.2021.279601": {
+   "cited_by_count": 7,
+   "openalex_id": "W3207016057"
+  },
+  "10.3324/haematol.2021.280153": {
+   "cited_by_count": 9,
+   "openalex_id": "W4214947968"
+  },
+  "10.3324/haematol.2022.281396": {
+   "cited_by_count": 3,
+   "openalex_id": "W4394724794"
+  },
+  "10.3390/genes11050499": {
+   "cited_by_count": 13,
+   "openalex_id": "W3023077402"
+  },
+  "10.64898/2026.05.20.726635": {
+   "cited_by_count": 0,
+   "openalex_id": "W7161948910"
+  },
+  "10.64898/2026.06.24.26356293": {
+   "cited_by_count": 0,
+   "openalex_id": "W7166844227"
+  },
+  "pmid:41415611": {
+   "cited_by_count": 0,
+   "openalex_id": "W4417525048"
+  },
+  "pmid:42396206": {
+   "cited_by_count": 0,
+   "openalex_id": "W7167289357"
+  }
+ }
+}

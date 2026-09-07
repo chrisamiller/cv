@@ -1,0 +1,19 @@
+<div class="profile-card">
+<a href="cv.html">
+<img src="assets/img/{{ photo }}" class="profile-photo" alt="{{ name }}" loading="lazy">
+</a>
+<h4 class="profile-name">Chris Miller, PhD</h4>
+<p class="profile-title">{{ title }}</p>
+<p class="profile-institution">{{ institution }}</p>
+<div class="profile-links">
+{{ include:profile_links }}
+</div>
+</div>
+
+<div class="section-card" style="margin-top: var(--space-6);">
+<h4 style="margin-top: 0;">Recent publications</h4>
+<div class="recent-pubs">
+{{ include:recent_publications }}
+</div>
+<p style="margin-top: var(--space-4); margin-bottom: 0;"><a href="publications.html">All publications &rarr;</a></p>
+</div>

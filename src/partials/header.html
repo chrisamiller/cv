@@ -1,0 +1,31 @@
+<nav class="navbar">
+<div class="container">
+<a class="navbar-brand" href="index.html">
+{{ include:brand_icon }}
+{{ short_name }}
+</a>
+<button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+{{ include:navlinks }}
+</ul>
+<div class="navbar-actions">
+<button class="search-toggle" id="searchToggle" aria-label="Search site"><i class="fa-solid fa-magnifying-glass"></i></button>
+<button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode"><i class="fa-solid fa-sun" id="themeIcon"></i></button>
+</div>
+</div>
+</div>
+</nav>
+
+<div class="search-overlay" id="searchOverlay">
+<div class="search-modal">
+<div class="search-input-wrapper">
+<i class="fa-solid fa-magnifying-glass search-input-icon"></i>
+<input type="text" class="search-input" id="searchInput" placeholder="Search pages..." autocomplete="off">
+<kbd class="search-kbd">ESC</kbd>
+</div>
+<div class="search-results" id="searchResults"></div>
+</div>
+</div>

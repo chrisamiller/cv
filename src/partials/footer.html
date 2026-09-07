@@ -1,0 +1,23 @@
+<footer class="site-footer">
+<div class="footer-grid">
+<div>
+<h5>About</h5>
+<p>{{ name }}<br>{{ title }}<br>{{ institution }}</p>
+</div>
+<div>
+<h5>Contact</h5>
+<p>
+<a href="mailto:{{ email }}"><i class="fa-solid fa-envelope"></i> {{ email }}</a><br>
+<a href="{{ github_url }}"><i class="fa-brands fa-github"></i> GitHub</a>
+</p>
+</div>
+<div>
+<h5>Address</h5>
+<p>{{ address_html }}</p>
+</div>
+</div>
+<div class="footer-copyright">
+&copy; {{ year }} {{ name }} &middot; Built from the
+<a href="https://github.com/sbryngelson/academic-website-template">academic-website-template</a>
+</div>
+</footer>

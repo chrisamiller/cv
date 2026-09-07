@@ -1,0 +1,30 @@
+{
+  "name": "Christopher A. Miller, PhD",
+  "short_name": "Chris Miller",
+  "title": "Associate Professor, Division of Oncology",
+  "institution": "Washington University School of Medicine",
+  "email": "c.a.miller@wustl.edu",
+  "url": "https://chrismiller.science",
+  "photo": "headshot.png",
+  "description": "Christopher A. Miller, PhD - computational biologist studying the genomic origins and evolution of cancer at Washington University School of Medicine.",
+  "accent": "#2f6396",
+  "accent_hover": "#264f79",
+  "address_lines": ["Campus Box 8501", "660 South Euclid Ave", "St. Louis, MO 63110"],
+  "societies": ["American Association for Cancer Research", "International Society for Computational Biology", "Cancer Genomics Consortium"],
+  "nav": [
+    { "id": "home",         "label": "Home",         "file": "index.html" },
+    { "id": "publications", "label": "Publications", "file": "publications.html" },
+    { "id": "teaching",     "label": "Teaching",     "file": "teaching.html" },
+    { "id": "software",     "label": "Software",     "file": "software.html" },
+    { "id": "cv",           "label": "CV",           "file": "cv.html" }
+  ],
+  "socials": [
+    { "id": "email",    "label": "Email",          "icon": "fa-solid fa-envelope",   "href": "mailto:c.a.miller@wustl.edu" },
+    { "id": "github",   "label": "GitHub",         "icon": "fa-brands fa-github",     "href": "https://github.com/chrisamiller" },
+    { "id": "scholar",  "label": "Google Scholar", "icon": "ai ai-google-scholar",   "href": "https://scholar.google.com/citations?user=0ryVFl8AAAAJ&hl=en" },
+    { "id": "orcid",    "label": "ORCID",          "icon": "ai ai-orcid",            "href": "https://orcid.org/0000-0003-4266-6700" },
+    { "id": "bluesky",  "label": "Bluesky",        "icon": "fa-brands fa-bluesky",   "href": "https://bsky.app/profile/chrismiller.science" },
+    { "id": "wustl",    "label": "WashU Oncology profile", "mask": "wustl",    "href": "https://oncology.wustl.edu/people/christopher-a-miller-phd/" },
+    { "id": "linkedin", "label": "LinkedIn",       "icon": "fa-brands fa-linkedin",  "href": "", "disabled": true }
+  ]
+}
