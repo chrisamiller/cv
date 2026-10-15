@@ -1,7 +1,29 @@
 {
- "generated": "2026-08-26",
- "count": 140,
+ "generated": "2026-10-15",
+ "count": 142,
  "entries": [
+  {
+   "n": 142,
+   "year": "2026",
+   "title": "Long-read cDNA sequencing reveals novel isoforms and spliceosome mutant-enriched transcripts in AML and MDS cells",
+   "authors_html": "<strong>Miller CA</strong>, Srivatsan SN, Kramer MH, Ramakrishnan SM, Fronick CC, Fulton RS, Katerndahl CD, Helton NM, Ley TJ, Walter MJ",
+   "journal": "Blood Neoplasia",
+   "doi": "10.1016/j.bneo.2026.100319",
+   "url": "https://doi.org/10.1016/j.bneo.2026.100319",
+   "link_kind": "doi",
+   "pmid": ""
+  },
+  {
+   "n": 141,
+   "year": "2026",
+   "title": "Synthetic long peptide and DNA personalized cancer vaccines induce robust neoantigen-specific T cell responses in pancreatic cancer",
+   "authors_html": "Zhang Perkins F, Zhang X, Yu YYL, Yang Y, Cullinan D, Singhal K, Parra-Lopez CA, <strong>Miller CA</strong>, Yan B, Angkeow JW, <em>et al.</em>",
+   "journal": "Science Advances",
+   "doi": "10.1126/sciadv.aei1190",
+   "url": "https://doi.org/10.1126/sciadv.aei1190",
+   "link_kind": "doi",
+   "pmid": "42696575"
+  },
   {
    "n": 140,
    "year": "2026",
@@ -39,12 +61,12 @@
    "n": 137,
    "year": "2026",
    "title": "Automating neoantigen selection for personalized cancer vaccine design",
-   "authors_html": "Yao JX, Singhal K, Kiwala S, Schmidt E, Goedegebuure S, <strong>Miller CA</strong>, Xia H, Cotto K, Coffman A, Hoang MH, <em>et al.</em>",
+   "authors_html": "Yao JX, Singhal K, Kiwala S, Schmidt E, Goedegebuure SP, <strong>Miller CA</strong>, Xia H, Cotto KC, Coffman A, Hoang MH, <em>et al.</em>",
    "journal": "medRxiv",
    "doi": "10.64898/2026.06.24.26356293",
    "url": "https://doi.org/10.64898/2026.06.24.26356293",
    "link_kind": "doi",
-   "pmid": ""
+   "pmid": "42428096"
   },
   {
    "n": 136,
@@ -368,13 +390,13 @@
   {
    "n": 107,
    "year": "2022",
-   "title": "Bam-readcount: rapid generation of basepair-resolution sequence metrics",
+   "title": "Bam-readcount - rapid generation of basepair-resolution sequence metrics",
    "authors_html": "Khanna A, Larson DE, Srivatsan SN, Mosior M, Abbott TE, Kiwala S, Ley TJ, Duncavage EJ, Walter MJ, Walker JR, <strong>Miller CA</strong>, <em>et al.</em>",
    "journal": "Journal Of Open Source Software",
    "doi": "10.21105/joss.03722",
    "url": "https://doi.org/10.21105/joss.03722",
    "link_kind": "doi",
-   "pmid": ""
+   "pmid": "42453900"
   },
   {
    "n": 106,

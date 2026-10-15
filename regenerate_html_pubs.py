@@ -8,10 +8,11 @@ Usage:
     python3 regenerate_html_pubs.py --legacy-html # also splice <li class="pub"> into oldsite/index.html
 
 Pipeline: docx -> per-publication citation text -> PMID/DOI -> PubMed efetch XML ->
-structured entries (authors/title/journal/year/doi), newest first.
+structured entries (authors/title/journal/year/doi), newest first. Entries with a DOI but
+no PMID are looked up in PubMed by exact DOI, then fall back to Crossref.
 See update.md for the style rules.
 """
-import json, re, sys, urllib.request, zipfile
+import html, json, re, sys, time, urllib.parse, urllib.request, zipfile
 from datetime import date
 from pathlib import Path
 import xml.etree.ElementTree as ET
@@ -25,17 +26,6 @@ MANUAL = {
     18: dict(title="The cancer genome atlas pan-cancer analysis project",
              journal="Nature Genetics", year="2013", doi="10.1038/ng.2764",
              authors="The Cancer Genome Atlas Research Network"),
-    107: dict(title="Bam-readcount: rapid generation of basepair-resolution sequence metrics",
-              journal="Journal Of Open Source Software", year="2022", doi="10.21105/joss.03722",
-              authors="Khanna A, Larson DE, Srivatsan SN, Mosior M, Abbott TE, Kiwala S, Ley TJ, "
-                      "Duncavage EJ, Walter MJ, Walker JR, Griffith OL, Griffith M, Miller CA"),
-    137: dict(title="Automating neoantigen selection for personalized cancer vaccine design",
-              journal="medRxiv", year="2026", doi="10.64898/2026.06.24.26356293",
-              authors="Yao JX, Singhal K, Kiwala S, Schmidt E, Goedegebuure S, Miller CA, Xia H, "
-                      "Cotto K, Coffman A, Hoang MH, Khanfar M, Li J, Hendrickson L, Risch I, "
-                      "Davies SR, Du F, Chang G, Hundal J, Ward JP, Inabinett WB, Hoos WA, "
-                      "Johanns TM, Dunn GP, Pachynski RK, Fehniger TA, Foltz JA, Gillanders WE, "
-                      "Griffith M, Griffith OL"),
 }
 
 
@@ -68,6 +58,47 @@ def fetch_pubmed(pmids):
         xml = r.read()
     root = ET.fromstring(xml)
     return {a.findtext(".//MedlineCitation/PMID"): a for a in root.findall("PubmedArticle")}
+
+
+def pubmed_for_doi(doi):
+    """PMID for a DOI via an exact [AID] match, or None. (A bare-term search for a DOI
+    degrades to its publisher prefix and returns unrelated papers, so it is not used.)"""
+    q = urllib.parse.quote(f'"{doi}"[AID]')
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term={q}"
+    with urllib.request.urlopen(url) as r:
+        ids = json.loads(r.read()).get("esearchresult", {}).get("idlist", [])
+    return ids[0] if ids else None
+
+
+def article_dois(art):
+    dois = {a.text.strip().lower() for a in art.findall("./PubmedData/ArticleIdList/ArticleId")
+            if a.get("IdType") == "doi" and a.text}
+    return dois | {e.text.strip().lower() for e in art.findall('.//Article/ELocationID[@EIdType="doi"]')
+                   if e.text}
+
+
+def fetch_crossref(doi):
+    """Metadata for a docx entry with a DOI but no PMID yet (not indexed in PubMed)."""
+    url = "https://api.crossref.org/works/" + urllib.parse.quote(doi)
+    with urllib.request.urlopen(url) as r:
+        m = json.loads(r.read())["message"]
+    title = re.sub(r"<[^>]+>", "", html.unescape((m.get("title") or [""])[0])).strip().rstrip(".")
+    year = ""
+    for key in ("published-print", "published-online", "issued"):
+        parts = ((m.get(key) or {}).get("date-parts") or [[]])[0]
+        if parts and parts[0]:
+            year = str(parts[0])
+            break
+    authors = []
+    for a in m.get("author", []):
+        if a.get("family"):
+            init = "".join(p[0].upper() for p in re.split(r"[\s.\-]+", a.get("given") or "") if p)
+            authors.append({"last": a["family"], "init": init,
+                            "name": f"{a['family']} {init}".strip(), "eq": False})
+        elif a.get("name"):
+            authors.append({"last": None, "init": None, "name": a["name"].strip(), "eq": False})
+    return dict(title=title, journal=clean_journal((m.get("container-title") or [""])[0]),
+                year=year, doi=doi, authors=authors)
 
 
 def cap_each(s):
@@ -174,6 +205,13 @@ def build_entries(rows, pm):
             md = MANUAL[n]
             authors = authors_from_str(md["authors"])
             title, journal, year, doi = md["title"], md["journal"], md["year"], md["doi"]
+        elif not pmid:
+            if not doi_scr:
+                sys.exit(f"#{n} has no PMID or DOI in the docx; add it to MANUAL")
+            md = fetch_crossref(doi_scr)
+            print(f"#{n}: no PMID in docx, using Crossref metadata for {doi_scr}")
+            authors = md["authors"]
+            title, journal, year, doi = md["title"], md["journal"], md["year"], md["doi"]
         else:
             art = pm[pmid]
             title = node_text(art.find(".//Article/ArticleTitle")).strip().rstrip(".").strip()
@@ -251,8 +289,23 @@ def splice(entries):
 
 def main():
     rows = extract_docx_pubs()
-    pmids = [r[2] for r in rows if r[2]]
+    # entries with a DOI but no PMID: PubMed may have indexed them since they were added.
+    # Use that here; add_publication.py (no args) writes the PMID into the docx itself.
+    found = {}
+    for r in rows:
+        if not r[2] and r[3] and r[0] not in MANUAL:
+            pmid = pubmed_for_doi(r[3])
+            time.sleep(0.4)  # NCBI: 3 requests/s without an API key
+            if pmid:
+                found[r[0]] = pmid
+    pmids = [r[2] for r in rows if r[2]] + list(found.values())
     pm = fetch_pubmed(pmids)
+    for r in rows:
+        pmid = found.get(r[0])
+        if pmid and pmid in pm and r[3].lower() in article_dois(pm[pmid]):
+            r[2] = pmid
+            print(f"#{r[0]}: now in PubMed as PMID {pmid} -- run add_publication.py "
+                  "to add it to the docx")
     missing = [p for p in pmids if p not in pm]
     if missing:
         print("WARNING: PMIDs not returned by PubMed:", missing)
